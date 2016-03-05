@@ -1,6 +1,6 @@
 package pl.spaszek.ds.api.controller.rest;
 
-import pl.spaszek.ds.api.domain.OrderDTO;
+import pl.spaszek.ds.application.domain.OrderDTO;
 
 import java.util.List;
 
