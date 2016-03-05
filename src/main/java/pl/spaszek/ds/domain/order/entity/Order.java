@@ -19,6 +19,7 @@ public class Order extends AbstractEntity {
 
     public static final String D_COURIER = "courier";
     public static final String D_PROVIDER = "provider";
+
     private static final String C_ORDER_STATUS = "order_status";
     private static final String C_PAYMENT_TYPE = "payment_type";
     private static final String C_EXPECTED_TO_COLLECT = "expected_to_collect";
@@ -63,6 +64,8 @@ public class Order extends AbstractEntity {
 
     @Column(name = C_JSON_PRODUCTS)
     public String jsonProducts;
+
+    public void changeStatus(OrderStatus orderStatus) {}
 
     public Courier getCourier() {
         return courier;
