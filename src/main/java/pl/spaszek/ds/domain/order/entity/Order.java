@@ -6,6 +6,7 @@ import pl.spaszek.ds.domain.order.util.PaymentType;
 import pl.spaszek.ds.domain.courier.entity.Courier;
 import pl.spaszek.ds.domain.provider.entity.Provider;
 import pl.spaszek.ds.domain.util.entity.AbstractEntity;
+import pl.spaszek.ds.domain.util.entity.Address;
 
 import javax.persistence.*;
 import java.math.BigInteger;
@@ -44,6 +45,10 @@ public class Order extends AbstractEntity {
     @Column(name = C_PAYMENT_TYPE)
     public PaymentType paymentType;
 
+    @OneToOne
+    @JoinColumn(name = "address_id")
+    private Address deliveryAddress;
+
     @Column
     public BigInteger value;
 
@@ -66,6 +71,14 @@ public class Order extends AbstractEntity {
     public String jsonProducts;
 
     public void changeStatus(OrderStatus orderStatus) {}
+
+    public Address getDeliveryAddress() {
+        return deliveryAddress;
+    }
+
+    public void setDeliveryAddress(Address deliveryAddress) {
+        this.deliveryAddress = deliveryAddress;
+    }
 
     public Courier getCourier() {
         return courier;
