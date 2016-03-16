@@ -1,4 +1,4 @@
-package pl.spaszek.ds.application.controller.rest;
+package pl.spaszek.ds.infrastracture.controller.rest;
 
 import pl.spaszek.ds.application.domain.OrderDTO;
 import pl.spaszek.ds.domain.order.util.OrderStatus;

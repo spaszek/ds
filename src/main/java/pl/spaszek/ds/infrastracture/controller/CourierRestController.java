@@ -1,4 +1,4 @@
-package pl.spaszek.ds.application.controller;
+package pl.spaszek.ds.infrastracture.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -14,6 +14,7 @@ public class CourierRestController {
 
     private static final String BASE_URL = "/courier";
     private static final String TAKE_ORDER = "/take/{orderId}";
+    private static final String GET_COURIER_INFO = "/info";
 
     @Autowired private CourierService courierService;
 

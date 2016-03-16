@@ -1,4 +1,4 @@
-package pl.spaszek.ds.application.controller.rest;
+package pl.spaszek.ds.infrastracture.controller.rest;
 
 import org.springframework.http.ResponseEntity;
 import pl.spaszek.ds.application.domain.ProviderDTO;

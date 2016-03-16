@@ -1,4 +1,4 @@
-package pl.spaszek.ds.application.controller;
+package pl.spaszek.ds.infrastracture.controller;
 
 import org.springframework.web.servlet.ModelAndView;
 
