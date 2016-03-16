@@ -1,8 +1,8 @@
-package pl.spaszek.ds.api.controller.rest;
+package pl.spaszek.ds.domain.provider.service;
 
 import pl.spaszek.ds.application.domain.ProviderDTO;
 
-public interface ClientController {
+public interface ProviderService {
 
     ProviderDTO getAccountStatus();
 
