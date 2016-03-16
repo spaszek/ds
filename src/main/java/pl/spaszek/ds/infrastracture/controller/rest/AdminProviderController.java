@@ -1,7 +1,7 @@
 package pl.spaszek.ds.infrastracture.controller.rest;
 
 import org.springframework.http.ResponseEntity;
-import pl.spaszek.ds.application.domain.ProviderDTO;
+import pl.spaszek.ds.infrastracture.domain.ProviderDTO;
 
 import java.util.List;
 

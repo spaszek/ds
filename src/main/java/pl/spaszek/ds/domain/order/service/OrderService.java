@@ -1,7 +1,6 @@
 package pl.spaszek.ds.domain.order.service;
 
-import org.springframework.http.ResponseEntity;
-import pl.spaszek.ds.application.domain.OrderDTO;
+import pl.spaszek.ds.infrastracture.domain.OrderDTO;
 import pl.spaszek.ds.domain.order.entity.Order;
 import pl.spaszek.ds.domain.order.util.OrderStatus;
 

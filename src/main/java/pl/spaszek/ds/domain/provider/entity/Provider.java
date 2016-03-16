@@ -18,6 +18,7 @@ import java.util.Set;
 public class Provider extends AbstractEntity {
 
     public static final String TABLE_NAME = "providers";
+
     private static final String C_ACTIVE_SINCE = "active_since";
     private static final String C_DEACTIVATED_AT = "decativated_at";
     private static final String C_MARGIN_RATE = "margin_rate";

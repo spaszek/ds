@@ -1,6 +1,5 @@
 package pl.spaszek.ds.domain.order.service;
 
-import pl.spaszek.ds.application.domain.OrderDTO;
 import pl.spaszek.ds.domain.order.entity.Order;
 
 import java.util.List;

@@ -1,6 +1,6 @@
 package pl.spaszek.ds.infrastracture.controller.rest;
 
-import pl.spaszek.ds.application.domain.OrderDTO;
+import pl.spaszek.ds.infrastracture.domain.OrderDTO;
 import pl.spaszek.ds.domain.order.util.OrderStatus;
 
 import java.util.List;
