@@ -1,4 +1,4 @@
-package pl.spaszek.ds.domain.courier.objectmother;
+package pl.spaszek.ds.infrastracture.objectmother;
 
 import pl.spaszek.ds.domain.courier.entity.Courier;
 

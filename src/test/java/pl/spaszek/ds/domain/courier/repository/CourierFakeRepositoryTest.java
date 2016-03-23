@@ -3,7 +3,7 @@ package pl.spaszek.ds.domain.courier.repository;
 
 import org.junit.Test;
 import pl.spaszek.ds.domain.courier.entity.Courier;
-import pl.spaszek.ds.domain.courier.objectmother.CourierObjectMother;
+import pl.spaszek.ds.infrastracture.objectmother.CourierObjectMother;
 
 import java.util.Collection;
 import java.util.stream.Collectors;

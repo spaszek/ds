@@ -167,4 +167,27 @@ public class Order extends AbstractEntity {
     public void setJsonProducts(String jsonProducts) {
         this.jsonProducts = jsonProducts;
     }
+
+    public static class Builder {
+        final Order order;
+
+        public Builder() {
+            this.order = new Order();
+        }
+
+        public Builder withId(Long id) {
+            this.order.setId(id);
+            return this;
+        }
+
+        public Builder withOrderStatus(OrderStatus orderStatus) {
+            this.order.setOrderStatus(orderStatus);
+            return this;
+        }
+
+        public Order build() {
+            return order;
+        }
+    }
+
 }
